@@ -1,0 +1,66 @@
+/* ----- NAVBAR ----- */
+.navbar {
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  position: fixed; /* 🔹 esto la deja fija arriba */
+  top: 0; /* 🔹 posición superior */
+  left: 0;
+  width: 100%; /* 🔹 ocupa todo el ancho */
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ----- CART WIDGET ----- */
+.cart-widget {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.cart-count {
+  background-color: red;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 50%;
+  padding: 3px 7px;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+}
+
+/* ----- ITEM LIST CONTAINER ----- */
+.item-list-container {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.item-list-container h2 {
+  color: #333;
+  font-size: 1.8rem;
+}
